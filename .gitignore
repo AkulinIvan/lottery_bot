@@ -1,0 +1,12 @@
+bot_errors.log
+lottery.db
+__pycache__
+venv
+tests
+requirements_test.txt
+.coverage
+/.log
+/.db
+htmlcov
+.pytest_cache
+.env
