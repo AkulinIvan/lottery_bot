@@ -1,4 +1,3 @@
-# lottery_bot/config.py
 import os
 from dotenv import load_dotenv
 
@@ -11,7 +10,7 @@ class Config:
     BOT_TOKEN = os.getenv('BOT_TOKEN')
     
     # ID администратора
-    ADMIN_ID = int(os.getenv('ADMIN_ID'))
+    ADMIN_ID = int(os.getenv('ADMIN_ID', 0))
     
     # Путь к базе данных
     DATABASE_PATH = os.getenv('DATABASE_PATH', 'lottery.db')

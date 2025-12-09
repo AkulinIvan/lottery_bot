@@ -10,3 +10,4 @@ requirements_test.txt
 htmlcov
 .pytest_cache
 .env
+debug.log
